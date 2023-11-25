@@ -1,11 +1,11 @@
 import * as React from "react"
 import TopBar from "./components/TopBar"
+import HeaderPicture from "./components/HeaderPicture"
 
 import './index.css'
 
 const pageStyles = {
   color: "#232129",
-  padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
@@ -130,6 +130,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <TopBar/>
+      <HeaderPicture />
       <h1 style={headingStyles}>
         Congratulations
         <br />
