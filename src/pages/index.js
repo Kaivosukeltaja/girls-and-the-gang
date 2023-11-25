@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import './index.css'
+
 const pageStyles = {
   color: "#232129",
   padding: 96,
