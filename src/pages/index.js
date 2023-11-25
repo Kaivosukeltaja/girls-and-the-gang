@@ -3,15 +3,13 @@ import TopBar from "./components/TopBar"
 import HeaderPicture from "./components/HeaderPicture"
 
 import './index.css'
+import MainArticle from "./components/MainArticle"
+import Content from "./components/Content"
+import MainLayout from "./components/MainLayout"
 
 const pageStyles = {
   color: "#232129",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
 }
 const headingAccentStyles = {
   color: "#663399",
@@ -83,10 +81,14 @@ const badgeStyle = {
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <MainLayout>
       <TopBar/>
       <HeaderPicture />
-    </main>
+      <Content>
+        <MainArticle/>
+      </Content>
+  
+    </MainLayout>
   )
 }
 
