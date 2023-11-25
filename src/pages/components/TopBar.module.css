@@ -1,5 +1,5 @@
 .bar {
     background-color: var(--top-bar-bg-color);
     color: var(--top-bar-text-color);
-    padding: 1rem;
+    padding: 0 1rem;
 }
