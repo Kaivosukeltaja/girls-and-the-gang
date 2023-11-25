@@ -1,4 +1,5 @@
 import * as React from "react"
+import TopBar from "./components/TopBar"
 
 import './index.css'
 
@@ -128,6 +129,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <TopBar/>
       <h1 style={headingStyles}>
         Congratulations
         <br />
