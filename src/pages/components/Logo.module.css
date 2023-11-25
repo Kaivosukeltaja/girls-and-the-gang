@@ -1,5 +1,5 @@
 .logo {
-    height: 64px;
+    height: 80px;
     width: auto;
-    fill: var(--top-bar-text-color)
+    fill: var(--top-bar-text-color);
 }

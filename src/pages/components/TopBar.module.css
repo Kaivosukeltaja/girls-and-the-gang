@@ -2,4 +2,8 @@
     background-color: var(--top-bar-bg-color);
     color: var(--top-bar-text-color);
     padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 60px;
 }
