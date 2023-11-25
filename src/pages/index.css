@@ -4,6 +4,9 @@
 
     --main-bg-color: var(--white);
     --main-text-color: var(--black);
+
+    --top-bar-bg-color: var(--black);
+    --top-bar-text-color: var(--white);
 }
 
 html {

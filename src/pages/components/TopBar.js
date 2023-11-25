@@ -1,12 +1,11 @@
 import React from "react"
 
-const TopBar = () => (
-    <nav>
-        <p>
-            Hello
-        </p>
-    </nav>
+import { bar } from "./TopBar.module.css"
 
+const TopBar = () => (
+    <nav className={bar}>
+        Hello
+    </nav>
 )
 
 export default TopBar;
