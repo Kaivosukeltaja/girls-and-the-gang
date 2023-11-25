@@ -1,4 +1,5 @@
 import * as React from "react"
+import TopBar from "./components/TopBar"
 
 const pageStyles = {
   color: "#232129",
@@ -126,6 +127,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <TopBar/>
       <h1 style={headingStyles}>
         Congratulations
         <br />
