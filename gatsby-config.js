@@ -42,6 +42,12 @@ module.exports = {
           include: /\.inline\.svg$/
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "girlsandthegang-website"
+      },
     }
   ],
 };
