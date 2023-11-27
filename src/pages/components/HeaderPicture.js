@@ -5,7 +5,7 @@ import { wrapper } from "./HeaderPicture.module.css"
 const HeaderPicture = () => (
     <div className={wrapper}>
         <StaticImage 
-            src="../../images/header.jpg" 
+            src="../../images/header-2.jpg" 
             alt="Girls and the Gang"
             placeholder="blurred"
         />
