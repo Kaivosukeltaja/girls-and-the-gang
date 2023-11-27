@@ -1,4 +1,13 @@
 .contentDiv {
   display: flex;
   align-items: center;
+  background-color: var(--main-bg-color);
+  flex-grow: 1;
+  max-width: 1024px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;    
 }

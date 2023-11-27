@@ -1,14 +1,10 @@
 import React from "react";
-import { contentDiv } from "./Content.module.css";
-
-
+import { wrapper, contentDiv } from "./Content.module.css";
 
 const Content = (props) => (
-
-    <div className={contentDiv}>
-        {props.children}
-    </div>
+  <div className={wrapper}>
+    <div className={contentDiv}>{props.children}</div>
+  </div>
 );
-
 
 export default Content;

@@ -1,16 +1,17 @@
 :root {
     --black: #1E1E1E;
     --white: #ffffff;
+    --off-white: #f0f0f0;
 
     --main-bg-color: var(--white);
     --main-text-color: var(--black);
+    --margin-color: var(--off-white);
 
     --top-bar-bg-color: var(--black);
     --top-bar-text-color: var(--white);
 }
 
 html {
-    background-color: var(--main-bg-color);
     color: var(--main-text-color);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.125rem;
@@ -21,7 +22,8 @@ html, body {
     margin: 0;
     height: 100%;
     box-sizing: border-box;
-    background: var(--main-bg-color);
+    background-color: var(--margin-color);
+    line-height: 1.5;
 }
 
 * {
