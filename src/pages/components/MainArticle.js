@@ -6,13 +6,17 @@ const MainArticle = () => (
     <h1>Girls and the Gang</h1>
 
     <p className={mainText}>
-      Tervetuloa The Girls and the Gangin vauhdikkaaseen maailmaan! Meiltä
-      löytyy se oikea mauste jokaiseen tilaisuuteen – olemme kuin musiikillinen
-      taikajuoma, joka saa porukan nostamaan jalat ilmaan. Dynaaminen
-      kokoonpanomme ja tarttuvat rytmit takaavat, että bileet ovat taattua
-      laatua. Olipa kyseessä sitten hittibiisit tai klassikot, monipuolinen
-      ohjelmistomme saa kaikki tarttumaan tahtiin. Tule mukaan musiikilliseen
-      seikkailuun, joka tekee jokaisesta tapahtumasta unohtumattoman!
+
+      Tervetuloa The Girls and the Gangin vauhdikkaaseen maailmaan! Meiltä 
+      löytyy se oikea mauste jokaiseen tilaisuuteen – olemme kuin musiikillinen 
+      taikajuoma, joka saa juhlatunnelman kattoon ammattimaisella otteella. 
+      Dynaaminen kokoonpanomme ja tarttuvat rytmit takaavat, että bileet ovat 
+      taattua laatua. Olipa kyseessä sitten hittibiisit tai klassikot, monipuolinen 
+      ohjelmistomme takaa unohtumattoman musiikillisen seikkailun, joka tekee jokaisesta 
+      tilaisuudesta ainutlaatuisen!
+      Ohjelmistostamme löytyy niin kotimaisia kuin kansainvälisiäkin pop-, rock- ja discohittejä aina menneiltä vuosikymmeniltä tähän päivään saakka. 
+      Ohjelmistossamme on kappaleita suomen ja englannin kielen lisäksi myös ranskan, portugalin, Italian, espanjan ja ruotsin kielellä. Saattaapa keikoillamme kuulla myös sellon sielukasta ääntä.
+      Suunnittelemme esitettävän ohjelmiston jokaiseen tilaisuuteen sopivaksi tilaajan toiveet huomioiden. Ota yhteyttä, niin kerromme lisää!
     </p>
   </div>
 );
