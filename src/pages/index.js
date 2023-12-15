@@ -6,6 +6,7 @@ import './index.css'
 import MainArticle from "./components/MainArticle"
 import Content from "./components/Content"
 import MainLayout from "./components/MainLayout"
+import Footer from "./components/Footer"
 
 const IndexPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <Content>
         <MainArticle/>
       </Content>
+      <Footer/>
   
     </MainLayout>
   )
