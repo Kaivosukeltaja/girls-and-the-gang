@@ -9,6 +9,10 @@
 
     --top-bar-bg-color: var(--black);
     --top-bar-text-color: var(--white);
+
+    --footer-bg-color: var(--black);
+    --footer-text-color: var(--white);
+
 }
 
 html {
