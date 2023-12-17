@@ -1,5 +1,6 @@
 import React from "react";
 import { articleDiv, mainText } from "./MainArticle.module.css";
+import VideoClip from "./VideoClip";
 
 const MainArticle = () => (
   <div className={articleDiv}>
@@ -18,6 +19,7 @@ const MainArticle = () => (
       Ohjelmistossamme on kappaleita suomen ja englannin kielen lisäksi myös ranskan, portugalin, Italian, espanjan ja ruotsin kielellä. Saattaapa keikoillamme kuulla myös sellon sielukasta ääntä.
       Suunnittelemme esitettävän ohjelmiston jokaiseen tilaisuuteen sopivaksi tilaajan toiveet huomioiden. Ota yhteyttä, niin kerromme lisää!
     </p>
+    <VideoClip />
   </div>
 );
 
